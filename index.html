@@ -1,0 +1,28 @@
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+  <title>Café Management</title> 
+  <link rel="stylesheet" href="style.css" /> 
+</head> 
+<body> 
+  <div class="container"> 
+    <h1>       Café Menu</h1> 
+ 
+    <div id="menu" class="menu"> 
+      <!-- Menu items will be inserted here by JavaScript --> 
+    </div> 
+ 
+    <h2>   Order Summary</h2> 
+    <div id="order-summary"></div> 
+    <div class="order-footer">
+      <p><strong>Total: ₹<span id="total">0.00</span></strong></p> 
+      <button onclick="clearOrder()">Clear Order</button> 
+    </div>
+  </div> 
+ 
+  <script src="script.js"></script> 
+</body> 
+</html> 
