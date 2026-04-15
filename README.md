@@ -20,9 +20,6 @@ This project is built using **HTML, CSS, and JavaScript**, making it lightweight
 - 🛒 **Order System**
   - Select items and place orders easily.
 
-- 🔐 **User Signup**
-  - Basic signup interface for users.
-
 - 📦 **Order Tracking**
   - Track your placed orders through a dedicated page.
 
